@@ -13,11 +13,11 @@ public class DecoratorTeste {
 		/* Presidente e Capitão do Exército */
 		Presidente presidenteCapitao = new Capitao(presidente);
 		salario = presidenteCapitao.recebeSalario(salario);
-		System.out.println("Presidente e Capitão da Reserva do Exército = R$" + salario);
+		System.out.println("Presidente e Capitão Reformado do Exército = R$" + salario);
 		
 		/* Presidente, Capitão do Exército e Deputado aposentado */
 		Presidente presidenteCapitaoDeputado = new Capitao (new Deputado(presidente));
 		salario = presidenteCapitaoDeputado.recebeSalario(salario);
-		System.out.println("Presidente, Capitão da Reserva do Exército e Deputado Aposentado = R$" + salario);
+		System.out.println("Presidente, Capitão Reformado do Exército e Deputado Aposentado = R$" + salario);
 	}
 }
