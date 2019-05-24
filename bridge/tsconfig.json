@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "experimentalDecorators": true,
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./",
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "target": "es5",
+    "lib": ["es6"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
